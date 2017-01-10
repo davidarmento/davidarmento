@@ -8,7 +8,7 @@
   </head>
   <body>
       <header>
-          <a href="#" class="menu-opener"><img src="img/icons-menu.png" align="absmiddle" /> MENÚ</a>
+          <a href="javascript:void(0);" class="menu-opener"><img src="img/icons-menu.png" align="absmiddle" /> <span>MENÚ</span></a>
           <a class="logo" href="#"><span>&lt;</span>DAVID ARMENTO<span>/&gt;</span></a>
           <div class="btn">
               <a href="#">UN POCO <strong>SOBRE MI</strong></a>
@@ -26,7 +26,17 @@
           </ul>
       </nav>
 
-      <img src="img/home.jpg" width="100%" alt="Mi imagen" layout="responsive" />
+      <div class="slider">
+          <h1>Blog personal sobre<br /><span>marketing</span> y desarrollo web...</h1>
+          <div align="center">
+              <ul class="categories">
+                  <li><a href="#">Php</a></li>
+                  <li><a href="#">Juegos</a></li>
+                  <li><a href="#">Node.JS</a></li>
+                  <li><a href="#">Hardware</a></li>
+              </ul>
+          </div>
+      </div>
 
       <div class="container">
 
@@ -47,7 +57,6 @@
                   <article class="post">
                       <div class="article_img">
                           <div class="social_layout">
-                              <a href="#" class="read-btn">LEER</a>
                               <a href="facebook" class="fb-btn"><img src="img/fb.png" /></a>
                               <a href="#" class="tw-btn"><img src="img/tw.png" /></a>
                               <a href="#" class="gp-btn"><img src="img/gp.png" /></a>
@@ -67,7 +76,6 @@
                   <article class="post">
                       <div class="article_img">
                           <div class="social_layout">
-                              <a href="#" class="read-btn">LEER</a>
                               <a href="facebook" class="fb-btn"><img src="img/fb.png" /></a>
                               <a href="#" class="tw-btn"><img src="img/tw.png" /></a>
                               <a href="#" class="gp-btn"><img src="img/gp.png" /></a>
@@ -88,7 +96,6 @@
                   <article class="post">
                       <div class="article_img">
                           <div class="social_layout">
-                              <a href="#" class="read-btn">LEER</a>
                               <a href="facebook" class="fb-btn"><img src="img/fb.png" /></a>
                               <a href="#" class="tw-btn"><img src="img/tw.png" /></a>
                               <a href="#" class="gp-btn"><img src="img/gp.png" /></a>
@@ -117,7 +124,6 @@
                   <article class="post">
                       <div class="article_img">
                           <div class="social_layout">
-                              <a href="#" class="read-btn">LEER</a>
                               <a href="facebook" class="fb-btn"><img src="img/fb.png" /></a>
                               <a href="#" class="tw-btn"><img src="img/tw.png" /></a>
                               <a href="#" class="gp-btn"><img src="img/gp.png" /></a>
@@ -138,7 +144,6 @@
                   <article class="post">
                       <div class="article_img">
                           <div class="social_layout">
-                              <a href="#" class="read-btn">LEER</a>
                               <a href="facebook" class="fb-btn"><img src="img/fb.png" /></a>
                               <a href="#" class="tw-btn"><img src="img/tw.png" /></a>
                               <a href="#" class="gp-btn"><img src="img/gp.png" /></a>
@@ -159,7 +164,6 @@
                   <article class="post">
                       <div class="article_img">
                           <div class="social_layout">
-                              <a href="#" class="read-btn">LEER</a>
                               <a href="facebook" class="fb-btn"><img src="img/fb.png" /></a>
                               <a href="#" class="tw-btn"><img src="img/tw.png" /></a>
                               <a href="#" class="gp-btn"><img src="img/gp.png" /></a>
@@ -180,15 +184,17 @@
                   <article class="post">
                       <div class="article_img">
                           <div class="social_layout">
-                              <a href="#" class="read-btn">LEER</a>
+                              <a href="facebook" class="title-btn">Bower para descargas simultaneas</a>
                               <a href="facebook" class="fb-btn"><img src="img/fb.png" /></a>
                               <a href="#" class="tw-btn"><img src="img/tw.png" /></a>
                               <a href="#" class="gp-btn"><img src="img/gp.png" /></a>
                           </div>
-                          <a href="#"><img class="primary-img" src="img/article.jpg" /></a>
+                          <a href="#">
+                              <video class="primary-img" src="https://media.giphy.com/media/3qfBuCC0X24wg/giphy.mp4" autoplay loop poster="img/article.jpg"></video>
+                          </a>
                       </div>
                       <div class="article_box">
-                          <h2><a href="#">Titulo del articulo</a></h2>
+                          <h2><a href="#">Bower para descargas simultaneas</a></h2>
                           <p class="author">Por <a href="#">David Armento</a></p>
                           <p class="date"> 06 de Enero 2017 en <strong>PHP</strong></p>
                           <p class="likes"><img src="img/like.png" align="absmiddle" /> 5</p>
@@ -199,13 +205,46 @@
               </div>
           </div>
       </div>
+
+      <div class="clear"></div>
+
+      <footer>
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-6">
+                      www.<strong>davidarmento</strong>.com
+                      <br /><br />
+                      <span><a href="#">Contactar</a> / <a href="#">Aviso legal</a> / <a href="#">Política de privacidad</a></span>
+                  </div>
+                  <div class="col-md-6 text-right">
+                      <strong>Follow me</strong>, only if you really mean it!
+                      <br /><br />
+                      <a href="#"><img width="48" height="48" src="img/github.png" alt="GitHub" /></a>
+                      <a href="#"><img width="48" height="48" src="img/stackoverflow.png" alt="Stack Overflow" /></a>
+                      <a href="#"><img width="48" height="48" src="img/facebook.png" alt="Facebook" /></a>
+                      <a href="#"><img width="48" height="48" src="img/twitter.png" alt="Twitter" /></a>
+                      <a href="#"><img width="48" height="48" src="img/linkedin.png" alt="Linked In" /></a>
+                      <a href="#"><img width="48" height="48" src="img/google.png" alt="Google Plus" /></a>
+                      <a href="#"><img width="48" height="48" src="img/instagram.png" alt="Instagram" /></a>
+                      <a href="#"><img width="48" height="48" src="img/youtube.png" alt="Youtube" /></a>
+                  </div>
+                  <div class="clear"></div>
+                  <div class="bt-gotop"></div>
+              </div>
+          </div>
+          <div class="clear"></div>
+      </footer>
   </body>
   <script type="text/javascript" src="jquery.js"></script>
-    <script type="text/javascript">
+  <script type="text/javascript">
         $(document).ready(function(){
             $('.menu-opener').click(function(){
                 $('nav').css('margin-left','0px');
             });
         });
-    </script>
+        $(".bt-gotop").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+            return false;
+        });
+  </script>
 </html>
