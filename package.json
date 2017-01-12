@@ -1,0 +1,23 @@
+{
+  "name": "davidarmento.com",
+  "version": "1.0.0",
+  "description": "Blog personal sobre marketing, desarrollo web y tecnología",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidarmento/davidarmento.git"
+  },
+  "author": "David Armento",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidarmento/davidarmento/issues"
+  },
+  "homepage": "https://github.com/davidarmento/davidarmento#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  }
+}
